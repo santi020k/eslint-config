@@ -113,6 +113,28 @@ export const myframeworkConfig: TSESLint.FlatConfig.ConfigArray = [
 7. **Wire into `eslintConfig()`** in `packages/basic/src/index.ts`.
 
 8. **Add tests** in `packages/tests/src/`.
+9. **Update `ConfigOption` enum** in `packages/core/src/types.ts`.
+10. **Wire into `eslintConfig()`** in `packages/basic/src/index.ts`.
+
+### Specific Framework Guides
+
+#### React, Next.js, Astro, Expo
+These are already implemented. See their respective `packages/` for reference.
+
+#### Vue (Future)
+1. Create `packages/vue`.
+2. Extend `eslint-plugin-vue` configs.
+3. Ensure TS compatibility.
+
+#### Angular (Future)
+1. Create `packages/angular`.
+2. Use `angular-eslint` capabilities.
+3. Note: Angular often requires a specific `builder` context.
+
+#### NestJS (Future)
+1. Create `packages/nest`.
+2. Extend core config.
+3. Add specific server-side rules (e.g., explicit return types).
 
 ## Adding a New Optional
 
