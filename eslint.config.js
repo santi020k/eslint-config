@@ -13,7 +13,9 @@ export default [
       'packages/*/dist/*',
       '**/tsup.config.ts',
       'docs/*',
-      'typedoc.config.mjs'
+      'docs-md/*',
+      'typedoc.config.mjs',
+      'typedoc.markdown.mjs'
     ]
   }
 ]

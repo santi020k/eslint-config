@@ -227,7 +227,7 @@ Add the following useful scripts to your `package.json`:
 - [x] Testing
 - [x] Refactored rules structure (Monorepo transition)
 - [x] Astro and Expo support
-- [ ] Enhanced documentation
+- [x] Enhanced documentation
 - [ ] Additional framework support (contributions welcome!):
   - [ ] Vue
   - [ ] Angular

@@ -18,7 +18,8 @@
     "pre-commit": "lint-staged",
     "pre-push": "npm run test && npm run lint && npm run build",
     "docs": "typedoc",
-    "docs:clean": "rm -rf docs"
+    "docs:md": "typedoc --options typedoc.markdown.mjs",
+    "docs:clean": "rm -rf docs docs-md"
   },
   "devDependencies": {
     "commitizen": "^4.3.1",

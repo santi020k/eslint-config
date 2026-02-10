@@ -10,10 +10,11 @@ export default {
     'packages/optionals/src/index.ts',
     'packages/basic/src/index.ts'
   ],
-  out: 'docs',
+  out: 'docs-md',
   tsconfig: './tsconfig.docs.json',
   name: '@santi020k/eslint-config-basic',
   readme: './README.md',
+  plugin: ['typedoc-plugin-markdown'],
   excludePrivate: true,
   excludeInternal: true,
   categorizeByGroup: true,
