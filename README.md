@@ -171,6 +171,7 @@ npm run lint       # Lint all packages
 npm run test       # Run integration tests
 npm run dev        # Development mode with watch
 npm run inspector  # Open ESLint config inspector
+npm run docs       # Generate API documentation
 ```
 
 ### ESLint Config Inspector
@@ -182,6 +183,16 @@ npm run inspector
 ```
 
 This opens an interactive UI where you can see all active rules, plugins, and config layers. It's useful for debugging which rules are applied and understanding the final merged configuration.
+
+### API Documentation
+
+Auto-generated API docs are available via [TypeDoc](https://typedoc.org/). Generate them locally:
+
+```bash
+npm run docs
+```
+
+This outputs markdown documentation to the `docs/` directory covering all exported types, enums, configs, and functions.
 
 ## Opinionated but Flexible
 
