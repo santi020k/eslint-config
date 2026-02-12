@@ -1,8 +1,9 @@
 // @ts-check
-import { ConfigOption, eslintConfig } from '@santi020k/eslint-config-basic'
+import { ConfigOption, eslintConfig, SettingOption } from '@santi020k/eslint-config-basic'
 
 export default [
   ...eslintConfig({
-    config: [ConfigOption.Expo, ConfigOption.Ts]
+    config: [ConfigOption.Expo, ConfigOption.Ts],
+    settings: [SettingOption.Gitignore]
   })
 ]

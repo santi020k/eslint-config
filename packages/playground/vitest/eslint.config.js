@@ -1,8 +1,9 @@
 // @ts-check
-import { eslintConfig, OptionalOption } from '@santi020k/eslint-config-basic'
+import { eslintConfig, OptionalOption, SettingOption } from '@santi020k/eslint-config-basic'
 
 export default [
   ...eslintConfig({
-    optionals: [OptionalOption.Vitest]
+    optionals: [OptionalOption.Vitest],
+    settings: [SettingOption.Gitignore]
   })
 ]
